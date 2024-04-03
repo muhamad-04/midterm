@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+
+.header {
+    background-color:#FFFFFF; 
+    padding: 5px 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header img {
+    width: 50px; 
+    margin-left: 100px;
+}
+
+.header ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 150px;
+}
+
+.header li {
+    margin-left: 50px; 
+    color: #939393; 
+    font-size: 16px;
+    
+}
+.header li:hover {
+    color: #F5A49A; 
+    cursor: pointer; 
+}
+.header button{
+    background-color: #FFFFFF;
+    border: none;
+    color: #939393; 
+    margin-right: 50px;
+}
+.header button:hover {
+    color: #F5A49A; 
+    cursor: pointer; 
+}
+.Ablock{
+    background-image: url('/mobile_intro_bg.png');
+    height: 550px;
+}
+.Ablock div{
+    margin-left: 50px;
+    padding-top: 100px;
+}
+
+.mainprogram{
+    height: 550px;
+    margin-top: 225px;
+    background-image: url('/wp8529160.png');
+}
+.mainprogram .container h1{
+    margin-left: 40%;
+    color: #FFFFFD;
+} 
+.mainprogram .speakerbox {
+    display: flex; 
+    flex-direction: row; 
+    margin-left: 20px;
+    
+    justify-content: space-around;
+    margin-top: 0px;
+    
+}
+.mainprogram .speakerbox div{
+    margin-top: 0px;
+    gap: 0px;
+}
+.mainprogram .speakerbox div img{
+    width: 20px;
+
+}
+.mainprogram .speakerbox h3{
+    color: white;
+}
+.mainprogram .speakerbox p{
+    color: #FFFFFD;
+}
+.one{
+    background-color: #414246;
+    height: 60px;
+}
